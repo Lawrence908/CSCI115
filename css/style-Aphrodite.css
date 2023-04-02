@@ -1,0 +1,150 @@
+body {
+	background-color: #262626;
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-bottom: 100px;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0099CC;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+    padding-top: 20px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #F2F2F2;
+	color: #262626;
+}
+
+nav li a:active{
+	background-color: #262626;
+	color: #0099CC;
+}
+
+nav input{
+    border-radius: 100000px;
+    text-align: center;
+}
+
+.search{
+    float: right;
+    padding: 3px 50px;
+    margin: 15px 20px;
+}
+
+.hero-section {
+	background-image: url("../img/hero-image.jpg");
+	background-size: cover;
+	background-position: right;
+	text-align: center;
+	padding: 200px 0;
+}
+
+.hero-section h1 {
+	font-size: 60px;
+	margin-bottom: 30px;
+	margin-right: 50%;
+
+}
+
+.hero-section p {
+	font-size: 24px;
+	margin-bottom: 50px;
+	margin-right: 50%;
+}
+
+.hero-section button {
+	background-color: #FFCC00;
+	color: #262626;
+	font-size: 24px;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 50%;
+
+}
+
+.gallery-section {
+	background-color: #262626;
+	padding: 50px;
+	text-align: center;
+}
+
+.gallery-section h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 20px;
+}
+
+td img {
+	max-width: 100%;
+	height: auto;
+}
+
+.about-section {
+	background-color: #0099CC;
+	padding: 50px;
+	text-align: center;
+}
+
+.about-section h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.about-section p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+
+footer {
+	background-color: #262626;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 30px 0;
+}
+
+footer p {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	nav li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+	nav li a {
+		padding: 10px;
+	}
+}
